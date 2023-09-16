@@ -2,8 +2,7 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom';
 const Contact = () => {
     const navigate = useNavigate();
-  const handleSubmit =(e)=>{
-    e.preventdefault();
+  const handleSubmit =()=>{
     alert("Submitted")
     navigate('/')
   }
