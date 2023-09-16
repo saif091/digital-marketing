@@ -1,11 +1,17 @@
 import React from 'react'
-
+import { useNavigate } from 'react-router-dom';
 const Contact = () => {
+    const navigate = useNavigate();
+  const handleSubmit =(e)=>{
+    e.preventdefault();
+    alert("Submitted")
+    navigate('/')
+  }
   return (
     <div className="contact">
         <main>
             <h1>Contact US</h1>
-            <form>
+            <form onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="">Name</label>
                     <input type="text" required placeholder='Abc' />
