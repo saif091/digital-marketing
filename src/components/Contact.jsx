@@ -24,7 +24,7 @@ const Contact = () => {
                     <label htmlFor="">Message</label>
                     <input type="text" required placeholder='Tell us about you query...' />
                 </div>
-                <button type='submit'>Send</button>
+                <button onClick={handleSubmit}type='submit'>Send</button>
             </form>
         </main>
     </div>
