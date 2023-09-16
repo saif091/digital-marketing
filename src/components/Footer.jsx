@@ -13,7 +13,7 @@ export const Footer = () => {
             <div>
                 <a href="https://youtube.com" target={'blank'}>Youtube</a>
                 <a href="https://instagram.com" target={'blank'}>Instagram</a>
-                <a href="https://github.com" target={'blank'}>github</a>
+                <a href="https://github.com/saif091" target={'blank'}>github</a>
 
             </div>
         </div>
